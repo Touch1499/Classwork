@@ -12,7 +12,6 @@
     --primary: #21e1e8;
     --secondary: #a98cf3;
     --accent: #c954ed;
-
 }
 
 body {
@@ -45,7 +44,7 @@ h2 {
     /* 50.56px */
 }
 
-h3 {
+h3 , span{
     font-size: 2.369rem;
     /* 37.92px */
 }
@@ -63,4 +62,15 @@ h5 {
 small {
     font-size: 0.750rem;
     /* 12px */
+}
+
+.cv-bg{
+    background-color: var(--background);
+}
+
+.name{
+    font-size: 200px;
+    height: 200px;
+    font-weight: 800;
+    color: var(--primary);
 }
